@@ -60,6 +60,6 @@ def main():
 
 
 
-## 📝 License
-Use the Script at your own Risk! 
+## LICENSE 📝
+🛑Use the Script at your own Risk!🛑 
 
