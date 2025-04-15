@@ -6,20 +6,20 @@ LogHawk is a Python-based log monitoring tool developed as part of the Lighthous
 
 
 # FEATURES
-✅Real-time monitoring of multiple log types
-✅Customizable detection rules for suspicious activities
-✅Automated alert generation
-✅CRON job integration for periodic execution
-✅Comprehensive log recording for security analysis
+✅Real-time monitoring of multiple log types  
+✅Customizable detection rules for suspicious activities  
+✅Automated alert generation  
+✅CRON job integration for periodic execution  
+✅Comprehensive log recording for security analysis  
 
 
 
 # INSTALLATION 💻
 
-**Ensure Python 3.x is installed**
+**Ensure Python 3.x is installed**  
 python3 --version
 ******************************************************
-**Install Python 3.X**
+**Install Python 3.X**  
 sudo apt-get install python3
 ******************************************************
 
@@ -27,10 +27,10 @@ sudo apt-get install python3
 
 # USAGE
 
-**Running the script directly**
+**Running the script directly**  
 python3 log_hawk_proj.py
 ******************************************************
-**Setting up CRON job for automated execution every 10 minutes:**
+**Setting up CRON job for automated execution every 10 minutes:**  
 */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
 ******************************************************
 
@@ -41,16 +41,16 @@ Inside the def main() function add the path to your Access log file, Application
 
 def main():
 
-**Add Access Log file path here** 
+**Add Access Log file path here**   
     access_path = "/media/sf_shared/access.log"
 ******************************************************
-**Add Application Log file path here**
+**Add Application Log file path here**  
     app_path = "/media/sf_shared/app.log"
 ******************************************************
-**Add Auth Log file path here**
+**Add Auth Log file path here**  
     auth_path = "/media/sf_shared/auth.log"
 ******************************************************
-**Add System Log file path here**    
+**Add System Log file path here**      
     system_path = "/media/sf_shared/system.log"
 ******************************************************
 
@@ -58,7 +58,7 @@ def main():
 
 # DEPENDENCIES
 
-✅Python 3.x
+✅Python 3.x  
 ✅Standard Python libraries (re, os, datetime)
 
 
