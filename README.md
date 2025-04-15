@@ -18,8 +18,10 @@ LogHawk is a Python-based log monitoring tool developed as part of the Lighthous
 
 **Ensure Python 3.x is installed**
 python3 --version
+******************************************************
 **Install Python 3.X**
 sudo apt-get install python3
+******************************************************
 
 
 
@@ -27,8 +29,10 @@ sudo apt-get install python3
 
 **Running the script directly**
 python3 log_hawk_proj.py
+******************************************************
 **Setting up CRON job for automated execution every 10 minutes:**
 */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
+******************************************************
 
 
 
